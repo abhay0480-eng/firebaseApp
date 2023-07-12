@@ -39,6 +39,10 @@ onValue(shoppingListInDB, function( snapshot){
     }
 })
 
+function clearShoppingListEl() {
+    shoppingList.innerHTML = ""
+}
+
 function clearInputFieldEl() {
     inputFieldEl.value = ""
 }
